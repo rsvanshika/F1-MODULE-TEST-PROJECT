@@ -23,6 +23,10 @@ body{
     height:80vh;
 }
 
+.card{
+    height: 100% !important;
+}
+
 .card-img-top{
     height: 25vh !important;
     
@@ -33,10 +37,14 @@ body{
     width:100%;
     
 }
+thead{
+    border-bottom: 2px solid black;
+}
 
 @media(min-width: 768px){
     body{
         padding: 0 50px;
         
     }
+    
 }
